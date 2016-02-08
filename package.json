@@ -1,0 +1,16 @@
+{
+  "name": "thinkstermeanstacktut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express-generator": "^4.13.1",
+    "mongoose": "^4.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
