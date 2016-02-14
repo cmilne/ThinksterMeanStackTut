@@ -3,10 +3,6 @@
 <head>
 	<title>Flapper News</title>
 	<link href="/components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
-	<script src="/components/angular/angular.min.js"></script>
-	<script src="/components/angular-ui-router/release/angular-ui-router.min.js"></script>
-	<script src="/javascripts/angularApp.js"></script>
 	<style> .glyphicon-thumbs-up { cursor:pointer } </style>
 </head>
 <body ng-app="flapperNews">
@@ -15,6 +11,13 @@
 			<ui-view></ui-view>
 		</div>
 	</div>
+
+	<script src="/components/angular/angular.min.js"></script>
+	<script src="/components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="/javascripts/AngularApp.js"></script>
+	<script src="/javascripts/MainController.js"></script>
+	<script src="/javascripts/PostsController.js"></script>	
+	<script src="/javascripts/PostsService.js"></script>		
 
 	<script type="text/ng-template" id="/home.html">
 		<div class="page-header">
